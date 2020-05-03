@@ -11,19 +11,22 @@ This repository is a note how to install development tools in windows.
         - [Demo video](#demo-video)
         - [Scoop - commands](#scoop---commands)
             - [help](#help)
+            - [list](#list)
+            - [update](#update)
     - [Git](#git)
         - [Git - How to install](#git---how-to-install)
     - [Windows Terminal](#windows-terminal)
         - [Windows Terminal - How to install](#windows-terminal---how-to-install)
     - [WSL](#wsl)
+    - [Docker](#docker)
     - [VS Code](#vs-code)
         - [VS Code - How to install](#vs-code---how-to-install)
         - [Extensions](#extensions)
             - [Markdown](#markdown)
             - [Git](#git)
-    - [Docker](#docker)
-    - [grep](#grep)
-        - [Installation](#installation)
+    - [PowerToys](#powertoys)
+    - [Recommended Tools](#recommended-tools)
+        - [Grep](#grep)
 
 <!-- /TOC -->
 
@@ -58,6 +61,22 @@ All of the commands are described in help.
 scoop help
 ```
 
+#### list
+
+Confirm packages that are already installed.
+
+```powershell
+scoop list
+```
+
+#### update
+
+Update the bucket information.
+
+```powershell
+scoop update
+```
+
 ---
 
 ## Git
@@ -90,7 +109,13 @@ There are 2 versions for WSL - v1 and v2. I haven't used v2 yet but I am plannin
 
 ---
 
-## VS Code
+## Docker
+
+TBD. Once WSL2 is released, I'd like to write it more.
+
+---
+
+## [VS Code](https://code.visualstudio.com/)
 
 VS Code is a relatively light code editor provided by Microsoft.
 
@@ -105,7 +130,7 @@ scoop install vscode
 
 ### Extensions
 
-There a lot of great extensions for vscode. Below are some of the extensions that I use. Will add more.
+There a lot of great extensions for vscode. Below are some of the extensions that I use. Will add more or take this out to other file.
 
 #### Markdown
 
@@ -119,15 +144,15 @@ There a lot of great extensions for vscode. Below are some of the extensions tha
 
 ---
 
-## Docker
+## [PowerToys](https://github.com/microsoft/PowerToys/tree/v0.17.0)
 
-TBD.
+TBD
 
----
+--- 
 
-## grep
+## Recommended Tools
 
-### Installation
+### Grep
 
 ```powershell
 scoop install grep
