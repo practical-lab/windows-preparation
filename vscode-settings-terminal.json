@@ -4,5 +4,5 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "git.autofetch": true,
     "workbench.colorTheme": "Material Theme Ocean High Contrast",
-    "terminal.integrated.shell.windows": "%USERPROFILE%\\scoop\\apps\\git\\current\\bin\\bash.exe"
+    "terminal.integrated.shell.windows": "%USERPROFILE%\\scoop\\apps\\git\\current\\bin\\bash.exe" // need to replace %USERPROFILE%
 }
