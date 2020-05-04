@@ -13,3 +13,9 @@ Please check the [docker docs](https://docs.docker.com/docker-for-windows/).
 ```bash
 docker run hello-world
 ```
+
+## Development
+
+### VS Code
+
+1. Install [Remote - Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
