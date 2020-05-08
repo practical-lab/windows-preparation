@@ -24,9 +24,16 @@ This repository is a note how to install development tools in windows.
         - [Extensions](#extensions)
             - [Markdown](#markdown)
             - [Git](#git)
+    - [Language](#language)
+        - [Python](#python)
+        - [Ruby](#ruby)
+        - [nodejs](#nodejs)
+        - [dotnet core](#dotnet-core)
     - [PowerToys](#powertoys)
     - [Recommended Tools](#recommended-tools)
-        - [Grep](#grep)
+        - [grep](#grep)
+        - [sed](#sed)
+        - [curl](#curl)
 
 <!-- /TOC -->
 
@@ -99,7 +106,7 @@ This is a terminal that can be used in Windows and also created by Microsoft.
 
 ### Windows Terminal - How to install
 
-Windows Terminal can be installed via Microsoft Store.
+Windows Terminal can be installed via Microsoft Store. Please also check windows-terminal.json for custom settings.
 
 ---
 
@@ -144,6 +151,34 @@ There a lot of great extensions for vscode. Below are some of the extensions tha
 
 ---
 
+## Language
+
+### Python
+
+```powershell
+scoop install python
+```
+
+### Ruby
+
+```powershell
+scoop install ruby
+```
+
+### nodejs
+
+```powershell
+scoop install nodejs-lts
+```
+
+### dotnet core
+
+```powershell
+scoop install dotnet-sdk
+```
+
+---
+
 ## [PowerToys](https://github.com/microsoft/PowerToys/tree/v0.17.0)
 
 TBD
@@ -152,8 +187,20 @@ TBD
 
 ## Recommended Tools
 
-### Grep
+### grep
 
 ```powershell
 scoop install grep
+```
+
+### sed
+
+```powershell
+scoop install sed
+```
+
+### curl
+
+```powershell
+scoop install curl
 ```
