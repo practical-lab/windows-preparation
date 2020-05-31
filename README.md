@@ -25,6 +25,10 @@ This repository is a note how to install development tools in windows.
             - [How to install](#how-to-install)
             - [Confirm where the zsh is](#confirm-where-the-zsh-is)
             - [Change the login shell to zsh](#change-the-login-shell-to-zsh)
+        - [Oh my zsh](#oh-my-zsh)
+            - [Install](#install)
+            - [Change theme](#change-theme)
+            - [Install fonts](#install-fonts)
         - [Reference](#reference)
     - [Docker](#docker)
     - [VS Code](#vs-code)
@@ -141,7 +145,7 @@ wsl lsb_release -a
 #### How to install
 
 ```bash
-sudo apt install zsh
+sudo apt install zsh -y
 ```
 
 #### Confirm where the zsh is
@@ -154,6 +158,27 @@ where zsh
 
 ```bash
 chsh
+```
+
+### Oh my zsh
+
+#### Install
+
+```zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+#### Change theme
+
+In .zshrc, there is a place you can set theme. I chose "agnoster".
+
+
+#### Install fonts
+
+```ps
+git clone https://github.com/powerline/fonts.git
+.\install.ps1
+sudo apt install fonts-powerline
 ```
 
 ### Reference
