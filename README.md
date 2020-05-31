@@ -13,11 +13,19 @@ This repository is a note how to install development tools in windows.
             - [help](#help)
             - [list](#list)
             - [update](#update)
+    - [WinGet](#winget)
     - [Git](#git)
         - [Git - How to install](#git---how-to-install)
     - [Windows Terminal](#windows-terminal)
         - [Windows Terminal - How to install](#windows-terminal---how-to-install)
     - [WSL](#wsl)
+        - [wsl cli](#wsl-cli)
+            - [Confirm linux version](#confirm-linux-version)
+        - [zsh](#zsh)
+            - [How to install](#how-to-install)
+            - [Confirm where the zsh is](#confirm-where-the-zsh-is)
+            - [Change the login shell to zsh](#change-the-login-shell-to-zsh)
+        - [Reference](#reference)
     - [Docker](#docker)
     - [VS Code](#vs-code)
         - [VS Code - How to install](#vs-code---how-to-install)
@@ -86,6 +94,12 @@ scoop update
 
 ---
 
+## [WinGet](https://github.com/microsoft/winget-cli)
+
+winget is a new package manager released from Microsoft in 2020. Currently this is still in preview but this may be the de facto standard in the future.
+
+---
+
 ## Git
 
 Git is a version management tool for source code.
@@ -113,6 +127,38 @@ Windows Terminal can be installed via Microsoft Store. Please also check windows
 ## WSL
 
 There are 2 versions for WSL - v1 and v2. I haven't used v2 yet but I am planning to use it once it is shipped in Windows 10 20H1.
+
+### wsl cli
+
+#### Confirm linux version
+
+```cmd
+wsl lsb_release -a
+```
+
+### zsh
+
+#### How to install
+
+```bash
+sudo apt install zsh
+```
+
+#### Confirm where the zsh is
+
+```Bash
+where zsh
+```
+
+#### Change the login shell to zsh
+
+```bash
+chsh
+```
+
+### Reference
+
+- [WSL 2 のインストール，Ubuntu 20.04, 18.04 のインストールと利用](https://www.kkaneko.jp/tools/wsl/wsl2.html)
 
 ---
 
