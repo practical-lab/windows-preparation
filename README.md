@@ -21,6 +21,7 @@ This repository is a note how to install development tools in windows.
     - [WSL](#wsl)
         - [wsl cli](#wsl-cli)
             - [Confirm linux version](#confirm-linux-version)
+        - [Tools](#tools)
         - [zsh](#zsh)
             - [How to install](#how-to-install)
             - [Confirm where the zsh is](#confirm-where-the-zsh-is)
@@ -140,6 +141,12 @@ There are 2 versions for WSL - v1 and v2. I haven't used v2 yet but I am plannin
 wsl lsb_release -a
 ```
 
+### Tools
+
+```zsh
+sudo apt install gcc -y
+```
+
 ### zsh
 
 #### How to install
@@ -184,6 +191,7 @@ sudo apt install fonts-powerline
 ### Reference
 
 - [WSL 2 のインストール，Ubuntu 20.04, 18.04 のインストールと利用](https://www.kkaneko.jp/tools/wsl/wsl2.html)
+- [初心者向け：Zshの導入](https://qiita.com/iwaseasahi/items/a2b00b65ebd06785b443)
 
 ---
 
